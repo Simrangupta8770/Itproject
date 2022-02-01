@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT PROJECT</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Neonderthaw&display=swap');
+        *{
+            margin:0;
+            padding:0;
+           
+        }
+        body{
+            background-color: black;
+            color:blue;
+        }
+        a{
+            color:blue;
+            transition: all 0.2s ease-in-out;
+            text-decoration: none;
+        }
+        a:hover{
+            color:white;
+            text-decoration:underline 2px solid blue;
+        }
+        .ans{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav style="display: flex;flex-direction:column;justify-content:center;align-items:center;width: 90%;justify-content: space-between;padding-left:5%;font-size: 1.2rem;">
+        <h2 style="color: white;">Information Technology</h2>
+        <ul style="width:40%;display: flex;justify-content:space-between;list-style: none;font-weight: bold;padding-top: 5px;font-size: 2rem;">
+            <li><a href="index.html" style="padding:20px;">Home</a></li>
+            <li><a href="intro.html" style="padding:20px;">Introduction</a></li>
+            <li><a href="ques.html" style="padding:20px;">Questions</a></li>
+        </ul>
+    </nav>
+    <header style="height:400px;position: relative;">
+        <img src="ent.jfif" style="height:400px;filter:brightness(40%);width:100%;object-fit: cover;position: relative;">
+        <!-- https://source.unsplash.com/WgGJjGN4_ck -->
+<div style="position: absolute;top:0;left:15%;display:flex;flex-direction:column;justify-content:center;align-items:center;width: 70%;height: 100%;color:white;">
+<h2 style="font-size: 2rem;font-weight: bolder;color:white;">ENTREPRENEURIAL SKILLS AND GREEN SKILLS</h2>
+</div>
+    </header>
+    <div style="box-shadow: 2px 2px 2px 2px grey;display: flex;flex-direction: column;justify-content: space-between;align-items: center;">
+        <h3 style="padding-top: 20px;padding-bottom: 20px;color:white;font-size: 3rem;">Questions</h3>
+        <img src="ques.svg" width="10%" height="10%">
+
+    </div>
+    <div style="display: flex;flex-direction: column;align-items: center;justify-content: center;margin-top:50px;">
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;color:blue;">Ques 1: What are the roles of Entrepreneurship ?</h4>
+        <button onclick="display(1)">Show Answer</button>
+        <p class="ans" id="ans1" style="font-size: 1.2rem; padding-top: 20px;">The roles of Entrepreneurship are:-<br><br>
+        
+            It aids the transfer of Technology .<br>
+       It enhances the living standards of people .<br>
+            It helps in transforming the economy .<br>
+            It aids the effective utilization of resources .<br>
+            It creates new markets and enables expansion into global markets .<br>
+        
+        </p>
+    </div>
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 2: What is natural resource conservation.Give different ways to save and conserve the natural resources?</h4>
+        <button onclick="display(2)">Show Answer</button>
+        <p class="ans" id="ans2" style="font-size: 1.2rem; padding-top: 20px;text-align: center;">
+            The protection and preservation restore ration and rational use of all the natural resources in the total environment are collectively called natural resource conservation.
+            Some different ways to save and conserve the natural resources are
+             tree plantation to prevent soil erosion, rainwater harvesting, use of bio fuels, recycling of waste use of energy saving fluorescent bulbs use of digital media instead of paper practice of Crop rotation use of drip irrigation, use a biogas in the kitchen ,Industrial waste and sewage treatment before they are released in the water bodies ,use of hybrid cars instead of conventional cars ,use of solar energy, wind energy and other alternative sources.
+        </p>
+    </div>
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 3:  Define green skills.</h4>
+        <button onclick="display(3)">Show Answer</button>
+        <p class="ans" id="ans3" style="font-size: 1.2rem; padding-top: 20px;text-align: center;">
+            Green skills can be defined as the skills, abilities, knowledge,and attitudes that are needed in the manpower to support economic,social,and environmental outcomes in the business industry.
+        
+        </p>
+    </div>
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 4: How can enterprise be defined?</h4>
+        <button onclick="display(4)">Show Answer</button>
+        <p class="ans" id="ans4" style="font-size: 1.2rem; padding-top: 20px;text-align: center;">
+            An enterprise can be defined as an entity,  organisation or undertaking that is formed for commercial purposes or business ventures . The main purpose of an enterprise is to provide goods and services while considering financial, commercial and industrial aspects. It comprises people and physical assets with a common objective of generating profits.
+        
+        </p>
+    </div>
+     <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 5: What are the 3 Rs? Explain.</h4>
+        <button onclick="display(5)">Show Answer</button>
+        <p class="ans" id="ans5" style="font-size: 1.2rem; padding-top: 20px;">
+            The 3 Rs are reduce reuse and recycle .<br>
+Reduce - minimize the use of natural resources as much as possible <br>
+Reuse - Reuse means to find new ways to use things that otherwise would have been thrown out.<br>
+Recycle - Recycle means to turn something old and useless into something new and useful<br>
+        
+        </p>
+    </div> 
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 6: what is the difference between entrepreneurship and wage employment?</h4>
+        <button onclick="display(6)">Show Answer</button>
+        <p class="ans" id="ans6" style="font-size: 1.2rem; padding-top: 20px;text-align: center;">
+            <img src="ans.jpeg">
+        </p>
+    </div>
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 7: What do you understand by hybrid business? </h4>
+        <button onclick="display(7)">Show Answer</button>
+        <p class="ans" id="ans7" style="font-size: 1.2rem; padding-top: 20px;text-align: center;">
+            The term “hybrid business” may refer to an enterprise which does not only make use of traditional methods of distribution, but also makes use of internet technology in order to easily expand its market and make the product or service more accessible.
+        </p>
+    </div>
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 8:What are the steps taken for environment protection? </h4>
+        <button onclick="display(8)">Show Answer</button>
+        <p class="ans" id="ans8" style="font-size: 1.2rem; padding-top: 20px;text-align: center;">
+            Identify suitable lands for afforestation for power projects of NTPC and other members through Ministry of Environment and Forests (MOEF) which will coordinate with the State Forest Departments/District Rural Development Authority etc.
+        </p>
+    </div>
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 9: What are the vital roles played by green economy </h4>
+        <button onclick="display(9)">Show Answer</button>
+        <p class="ans" id="ans9" style="font-size: 1.2rem; padding-top: 20px;">
+            It makes the quality of the life better .<br>
+The environment balances become harmonized .<br>
+The resource efficiency increases
+        </p>
+    </div>
+    <div style="color: white;display: flex;flex-direction: column;align-items: center;justify-content: center;width:50%;font-size: 2rem;border:2px solid blue;padding:2rem;">
+        <h4 style="padding-top: 20px;padding-bottom: 20px;text-align:center;color:blue;">Ques 10: What are Drone Entrepreneurs ? Explain Service business. </h4>
+        <button onclick="display(10)">Show Answer</button>
+        <p class="ans" id="ans10" style="font-size: 1.2rem; padding-top: 20px;">
+          These are the Entrepreneurs who do not change their approach of doing business and maintain conservative even when they are suffering losses.
+          <br>
+          It is a type of business in which intangible such as accounting,banking cleaning ,education ,insurane ,treatment ,etc.
+          products are provided.
+        </p>
+    </div>
+    
+    </div>
+   <script>
+       function display(num){
+           document.getElementById('ans'+num).style.display="block";
+       }
+   </script>
+<div style="position: relative;margin-top: 100px;">
+<footer style="background-color: blue;position:absolute;bottom:0;left:0;width:100%;color:white;">
+    <p style="text-align: center;padding-top:10px;padding-bottom: 10px;">&copy; IT Project 2022</p>
+
+</footer>
+</div>
+
+</body>
+</html>
